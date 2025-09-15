@@ -60,6 +60,4 @@ interface IPrivilegedService {
      */
     oneway void deletePackage(in String packageName, in int flags, in IPrivilegedCallback callback);
 
-    List<PackageInfo> getInstalledPackages(in int flags);
-
 }
